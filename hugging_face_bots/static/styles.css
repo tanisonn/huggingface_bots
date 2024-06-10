@@ -1,0 +1,97 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Buttons */
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Text box */
+.text-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+/* Text sections */
+.text h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Speech recognition status */
+#recognizedText {
+    color: #007bff;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    header {
+        padding: 15px 0;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+
+    .text-box {
+        padding: 15px;
+    }
+
+    .text h2 {
+        font-size: 18px;
+    }
+
+    .text p {
+        font-size: 16px;
+    }
+}

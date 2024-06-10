@@ -1,0 +1,1 @@
+{"index_struct": {"__type__": "simple_dict", "__data__": {"index_id": "ec00b3b0-904a-4e87-9fde-e5602be32ea4", "summary": null, "nodes_dict": {}, "doc_id_dict": {}, "embeddings_dict": {}}}, "docstore": {"docs": {}, "ref_doc_info": {}}, "vector_store": {"simple_vector_store_data_dict": {"embedding_dict": {}, "text_id_to_doc_id": {}}}}
